@@ -13,6 +13,8 @@ scoop install libatomic/passport
 
 Upgrade with `scoop update passport`.
 
+The [Passport desktop guide](https://github.com/libatomic/passport-releases/blob/master/docs/README.md) covers first launch, the command line, agents and CI.
+
 Downloads come from [libatomic/passport-releases](https://github.com/libatomic/passport-releases). Manifests are written by Passport desktop's release workflow on each release; edits here are replaced by the next one.
 
 Windows builds are not signed yet, so SmartScreen may ask before the first run. With Passport running, `passport trust` adds its local certificate, which is only good for `.localhost` addresses, to your trusted roots; Windows asks you to confirm.

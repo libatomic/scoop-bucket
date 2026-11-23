@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0-rc.7",
+  "version": "2.3.0-rc.8",
   "description": "Whole Passport on one computer: server, web apps, inbox, Stripe simulator",
   "homepage": "https://github.com/libatomic/passport-releases",
   "license": {
@@ -7,19 +7,19 @@
   },
   "notes": [
     "Run Passport with: passport up --headless",
-    "Trusting its local certificate automatically is macOS only for now: import the file `passport ca --path` prints into your browser.",
-    "The window (passport-desktop) is a preview on Windows."
+    "With Passport running, `passport trust` adds its local certificate (only good for .localhost) to your trusted roots; Windows asks you to confirm.",
+    "`passport up` opens the window; `passport up --headless` runs without one."
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/libatomic/passport-releases/releases/download/v2.3.0-rc.7/passport-2.3.0-rc.7-windows-amd64.zip",
-      "hash": "ce07ddc0d0a1639811904d364e6ccfd27289e7c31f64510b8ffe979c13b9e437",
-      "extract_dir": "passport-2.3.0-rc.7-windows-amd64"
+      "url": "https://github.com/libatomic/passport-releases/releases/download/v2.3.0-rc.8/passport-2.3.0-rc.8-windows-amd64.zip",
+      "hash": "faaed5991411b69faaf35c7466cb4d23452a5b9e60afb9c2ee3f7af9071fb529",
+      "extract_dir": "passport-2.3.0-rc.8-windows-amd64"
     },
     "arm64": {
-      "url": "https://github.com/libatomic/passport-releases/releases/download/v2.3.0-rc.7/passport-2.3.0-rc.7-windows-arm64.zip",
-      "hash": "44984cedf5a19b68cb4b9edd872686873b4bdc6fbac5a0e0d20d85411e0ada0f",
-      "extract_dir": "passport-2.3.0-rc.7-windows-arm64"
+      "url": "https://github.com/libatomic/passport-releases/releases/download/v2.3.0-rc.8/passport-2.3.0-rc.8-windows-arm64.zip",
+      "hash": "59b2d231602633b731e800968177484c0e8b3422d816d7da1cfe1223461d8fb0",
+      "extract_dir": "passport-2.3.0-rc.8-windows-arm64"
     }
   },
   "bin": "bin\\passport.exe",

@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0-rc.9",
+  "version": "2.3.0-rc.10",
   "description": "Whole Passport on one computer: server, web apps, inbox, Stripe simulator",
   "homepage": "https://github.com/libatomic/passport-releases",
   "license": {
@@ -12,14 +12,14 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/libatomic/passport-releases/releases/download/v2.3.0-rc.9/passport-2.3.0-rc.9-windows-amd64.zip",
-      "hash": "c956f02024b06b097b526267bc09afd965c65291387f30ccad8a649789f1d8bd",
-      "extract_dir": "passport-2.3.0-rc.9-windows-amd64"
+      "url": "https://github.com/libatomic/passport-releases/releases/download/v2.3.0-rc.10/passport-2.3.0-rc.10-windows-amd64.zip",
+      "hash": "1b99bae558f8bb5e8fc56147719eaa877847ef55ac0e093914c424a4b59ceb0a",
+      "extract_dir": "passport-2.3.0-rc.10-windows-amd64"
     },
     "arm64": {
-      "url": "https://github.com/libatomic/passport-releases/releases/download/v2.3.0-rc.9/passport-2.3.0-rc.9-windows-arm64.zip",
-      "hash": "e4051b60340e52e2ddff670c8dea1b4164ae17e6b61b966fbf0e4c0512c9a116",
-      "extract_dir": "passport-2.3.0-rc.9-windows-arm64"
+      "url": "https://github.com/libatomic/passport-releases/releases/download/v2.3.0-rc.10/passport-2.3.0-rc.10-windows-arm64.zip",
+      "hash": "8bb2c5437182b0973b96b9fa62695a11632aef912d90bfb0ee17e1f6356cdc9d",
+      "extract_dir": "passport-2.3.0-rc.10-windows-arm64"
     }
   },
   "bin": "bin\\passport.exe",
